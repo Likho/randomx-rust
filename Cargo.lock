@@ -273,18 +273,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "randomx"
-version = "0.1.1"
-dependencies = [
- "bigint",
- "bindgen",
- "byteorder 0.5.3",
- "cmake",
- "filetime",
- "libc",
-]
-
-[[package]]
 name = "redox_syscall"
 version = "0.1.54"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -319,6 +307,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9d76410686f9e3a17f06128962e0ecc5755870bb890c34820c7af7f1db2e1d48"
 dependencies = [
  "ucd-util",
+]
+
+[[package]]
+name = "stack_test_randomx"
+version = "0.1.1"
+dependencies = [
+ "bigint",
+ "bindgen",
+ "byteorder 0.5.3",
+ "cmake",
+ "filetime",
+ "libc",
 ]
 
 [[package]]
